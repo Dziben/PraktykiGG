@@ -88,7 +88,7 @@ public class Main {
                     System.out.println("Wybrano: dzielenie. Podaj liczby: ");
                     double g = scan.nextDouble();
                     double h = scan.nextDouble();
-                    if(h > 0)
+                    if(g == 0)
                     {
                         System.out.println("Iloraz = " + kalkulator.dzielenie(g, h));
                     } else {
